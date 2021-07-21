@@ -1,0 +1,31 @@
+.container {
+
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.8rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 1px;
+  font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+}
+
+.boxLogo {
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+
+.menuList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuItem {
+  margin: 0 1em ;
+  font-weight: 600;
+}
