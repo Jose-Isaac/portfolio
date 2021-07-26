@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.boxIllustration {
+  width: 100%;
+}
+
+.boxTitles {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.boxTitles h1 {
+  font-size: 2.8em;
+  margin: .5em 0;
+}
+
+.boxTitles h2 {
+  font-size: 1.2rem;
+}
+
