@@ -3,6 +3,13 @@
   height: 100vh;
 }
 
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .boxIllustration {
   width: 100%;
 }
@@ -13,11 +20,11 @@
 }
 
 .boxTitles h1 {
-  font-size: 6em;
-  margin-bottom: 0.1em;
+  font-size: 2.8em;
+  margin: .5em 0;
 }
 
 .boxTitles h2 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
