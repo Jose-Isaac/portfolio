@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css';
 import Layout from '../components/Layout/Layout';
 import Header from '../components/Header/Header';
 import SectionIntroduction from '../components/SectionIntroduction/SectionIntroduction';
+import AboutMe from '../components/AboutMe/AboutMe';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <SectionIntroduction />
+        <AboutMe />
       </main>
 
       <footer className={styles.footer}></footer>
