@@ -6,11 +6,14 @@ export default function AboutMe() {
   return (
     <section>
       <h1 className={styles.title}>Sobre mim</h1>
-      <div>
-        <div>
-          <Image src={Avatar} alt="José Isaac" layout="responsive" />
-        </div>
-        <div>
+      <div className={styles.content}>
+        <Image
+          className={styles.avatar}
+          src={Avatar}
+          alt="José Isaac"
+          layout="intrinsic"
+        />
+        <div className={styles.boxText}>
           <p>
             Tenho 22 anos e moro no interior da paraíba. Sou apaixonado por
             tecnologia e todo o ecossistema que a envolve, principalmente suas

@@ -1,6 +1,28 @@
 .title {
   text-align: center;
   font-size: 1.8em;
-  margin: .5em 0;
+  margin-bottom: 1.8em;
+  letter-spacing: 1px;
+}
+
+.content {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.avatar {
+  border-radius: 10px;
+}
+
+.boxText {
+  margin-top: .4rem;
+}
+
+.boxText p {
+  margin: 1em 0;
+  line-height: 1.5rem;
   letter-spacing: 1px;
 }
