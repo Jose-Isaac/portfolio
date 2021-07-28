@@ -5,7 +5,11 @@
 
 .titleSection {
   text-align: center;
-  font-size: 1.8em;
-  margin-bottom: 1.8em;
-  letter-spacing: 1px;
+  font-size: 1.6em;
+  margin-bottom: 1.2em;
+  letter-spacing: 2px;
+}
+
+.marginSection {
+  margin: 1rem 0;
 }
