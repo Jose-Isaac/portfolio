@@ -1,0 +1,24 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin : 0 auto;
+}
+
+.cardContent {
+  margin: .6em auto;
+}
+
+.cardContent > h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin: .4em 0;
+  letter-spacing: 2px;
+}
+
+.cardContent > p {
+  margin: 1em 0;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}

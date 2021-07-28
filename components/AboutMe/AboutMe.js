@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import Avatar from '../../public/images/avatar.png';
 import styles from './AboutMe.module.css';
+import utilStyles from '../../styles/utils.module.css';
 
 export default function AboutMe() {
   return (
-    <section>
+    <section className={utilStyles.marginSection}>
       <h1 className={styles.title}>Sobre mim</h1>
       <div className={styles.content}>
         <Image

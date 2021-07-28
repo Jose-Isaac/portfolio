@@ -5,6 +5,7 @@ import Layout from '../components/Layout/Layout';
 import Header from '../components/Header/Header';
 import SectionIntroduction from '../components/SectionIntroduction/SectionIntroduction';
 import AboutMe from '../components/AboutMe/AboutMe';
+import WhatDoIDo from '../components/WhatDoIDo/WhatDoIDo';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <main className={styles.main}>
         <SectionIntroduction />
         <AboutMe />
+        <WhatDoIDo />
       </main>
 
       <footer className={styles.footer}></footer>
