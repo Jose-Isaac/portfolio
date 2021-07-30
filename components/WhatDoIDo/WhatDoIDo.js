@@ -3,7 +3,7 @@ import styles from './WhatDoIDo.module.css';
 
 export default function WhatDoIDo() {
   return (
-    <section className={utilStyles.marginSection}>
+    <section className={styles.container}>
       <h1 className={utilStyles.titleSection}>O que faço?</h1>
 
       <div className={styles.content}>

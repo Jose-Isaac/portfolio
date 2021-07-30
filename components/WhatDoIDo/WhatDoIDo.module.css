@@ -1,18 +1,24 @@
+.container {
+  background-color: rgba(46,94,170,.96);
+  padding: 2.5rem 0;
+  color: #E7EFF6;
+}
+
 .content {
   display: flex;
   flex-direction: column;
   width: 90%;
   margin : 0 auto;
+  color: #E7EFF6;
 }
 
 .cardContent {
-  margin: .6em auto;
+  margin: 1em auto;
 }
 
 .cardContent > h2 {
   font-size: 1.4rem;
   font-weight: 700;
-  text-align: center;
   margin: .4em 0;
   letter-spacing: 2px;
 }
