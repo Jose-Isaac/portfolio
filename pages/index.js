@@ -8,6 +8,7 @@ import AboutMe from '../components/AboutMe/AboutMe';
 import WhatDoIDo from '../components/WhatDoIDo/WhatDoIDo';
 import Education from '../components/Education/Education';
 import Projects from '../components/Projects/Projects';
+import Contact from '../components/Contact/Contact';
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <WhatDoIDo />
         <Education />
         <Projects />
+        <Contact />
       </main>
 
       <footer className={styles.footer}></footer>
