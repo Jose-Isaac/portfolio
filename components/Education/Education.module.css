@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.cardCourse {
+  margin-bottom: 20px;
+  padding: .2em;
+}
+
+.cardCourse h3 {
+  font-weight: 500;
+  font-size: 1.06rem;
+}
+
+.cardCourse span {
+  display: block;
+  margin: .6em 0;
+}
+
+.cardCourse p, .cardCourse span {
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
