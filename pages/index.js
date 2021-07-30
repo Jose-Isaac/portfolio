@@ -7,6 +7,7 @@ import SectionIntroduction from '../components/SectionIntroduction/SectionIntrod
 import AboutMe from '../components/AboutMe/AboutMe';
 import WhatDoIDo from '../components/WhatDoIDo/WhatDoIDo';
 import Education from '../components/Education/Education';
+import Projects from '../components/Projects/Projects';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <AboutMe />
         <WhatDoIDo />
         <Education />
+        <Projects />
       </main>
 
       <footer className={styles.footer}></footer>
