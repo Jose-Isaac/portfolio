@@ -5,8 +5,8 @@ import utilStyles from '../../styles/utils.module.css';
 
 export default function AboutMe() {
   return (
-    <section className={utilStyles.marginSection}>
-      <h1 className={styles.title}>Sobre mim</h1>
+    <section className={styles.container}>
+      <h1 className={utilStyles.titleSection}>Sobre mim</h1>
       <div className={styles.content}>
         <Image
           className={styles.avatar}
