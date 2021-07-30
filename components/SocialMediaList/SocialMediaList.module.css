@@ -1,0 +1,9 @@
+.SocialMediaList {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+.socialMedia img {
+  width: 2.6rem;
+}

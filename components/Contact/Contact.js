@@ -1,4 +1,5 @@
 import utilStyles from '../../styles/utils.module.css';
+import SocialMediaList from '../SocialMediaList/SocialMediaList';
 import styles from './Contact.module.css';
 
 export default function Contact() {
@@ -15,6 +16,8 @@ export default function Contact() {
         </p>
         <p>Aqui abaixo está minha principais redes para contato!</p>
       </div>
+
+      <SocialMediaList />
     </section>
   );
 }
