@@ -1,0 +1,27 @@
+.container {
+  background-color: rgba(255,223,100,.2);
+  padding: 2.5rem 0;
+  width: 100%;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+}
+
+.more button {
+  background-color: #E7EFF6;
+  color: #2E5EAA;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 1em;
+  padding: 1em 1.2em;
+  border-radius: 10px;
+  border: 2px solid #FFDF64;
+}
+ 
