@@ -1,8 +1,10 @@
-.title {
-  text-align: center;
-  font-size: 1.8em;
-  margin-bottom: 1.8em;
-  letter-spacing: 1px;
+.container {
+  background-color: #FFDF64;
+  padding: 2rem 0;
+}
+
+.container h1 {
+  letter-spacing: 4px;
 }
 
 .content {
