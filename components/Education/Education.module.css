@@ -1,9 +1,10 @@
 .container {
-  padding: 3rem 0;
+  padding: 2.5rem 0;
 }
 
 .container h1 {
-  color: #2E5EAA;
+  color: rgba(46,94,170,.8);
+  margin-bottom: 1.5em;
 }
 
 .content {
@@ -15,8 +16,10 @@
 }
 
 .cardCourse {
-  margin-bottom: 20px;
-  padding: .2em;
+  border-radius: 10px;
+  margin-bottom: .8em;
+  padding: 1.6em .6em;
+  background-color: rgba(46,94,170,.3);
 }
 
 .cardCourse h3 {
