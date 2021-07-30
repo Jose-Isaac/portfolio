@@ -3,7 +3,7 @@ import styles from './Education.module.css';
 
 export default function Education() {
   return (
-    <section className={utilStyles.marginSection}>
+    <section className={styles.container}>
       <h1 className={utilStyles.titleSection}>Educação</h1>
 
       <div className={styles.content}>

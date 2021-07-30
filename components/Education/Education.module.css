@@ -1,3 +1,11 @@
+.container {
+  padding: 3rem 0;
+}
+
+.container h1 {
+  color: #2E5EAA;
+}
+
 .content {
   display: flex;
   flex-direction: column;
