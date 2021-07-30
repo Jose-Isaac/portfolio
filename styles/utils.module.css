@@ -6,14 +6,8 @@
 .titleSection {
   text-align: center;
   font-size: 1.6em;
-  margin-bottom: 1.2em;
   letter-spacing: 2px;
-}
-
-.marginSection {
-  margin: 1rem 0;
-}
-
-.paddingSection {
-  padding: 1rem 0;
+  width: 80%;
+  margin: 0 auto 1.2em;
+  line-height: 1.5em;
 }

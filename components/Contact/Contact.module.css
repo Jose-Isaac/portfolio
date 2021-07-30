@@ -1,0 +1,25 @@
+.container {
+  padding: 2.5rem 0;
+  background-color: rgba(34,39,37,.06);
+}
+
+.highlightText {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.content p {
+  margin: .8em 0;
+  text-align: justify;
+}
+
+.content p:last-child {
+  font-style: italic;
+}
